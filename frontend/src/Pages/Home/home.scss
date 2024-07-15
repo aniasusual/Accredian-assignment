@@ -1,0 +1,207 @@
+#homePage {
+
+
+    #heroSection {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+        #topHero1 {
+            background-color: #1A73E826;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 12px;
+            height: 7vh;
+            width: 100%;
+            font-size: 16.88px;
+
+            a {
+                text-decoration: none;
+
+                div {
+                    color: #1A73E8;
+                }
+            }
+
+            div {
+                color: #262626;
+            }
+        }
+
+        #topHero2 {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px;
+            box-sizing: border-box;
+            width: 100%;
+
+            #topHero2Left {
+                display: flex;
+                justify-content: center;
+                flex-direction: row;
+                align-items: center;
+                flex: 4;
+                gap: 15px;
+            }
+
+            #topHero2Right {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 32px;
+                flex: 6;
+                font-size: 14.75px;
+
+                a {
+                    text-decoration: none;
+
+                    button {
+                        padding: 1px;
+                        background-color: #1A73E8;
+                        border-radius: 5px;
+                        color: white;
+                        padding: 11px;
+                    }
+
+                    #loginBtn {
+                        background-color: #94A3B833;
+                        color: black;
+                    }
+                }
+
+            }
+        }
+
+        #topHero3 {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction: row;
+            align-items: center;
+            background-color: #1A73E81C;
+            width: 50%;
+            margin-top: 5vh;
+            box-sizing: border-box;
+            border-radius: 38px;
+
+
+            a {
+                color: #4B4B4B;
+                padding: 20px;
+                font-size: 25px;
+            }
+
+        }
+
+        #topHero4 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            background-color: #1A73E81C;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 29px;
+            position: relative;
+
+            #money1 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 12%;
+            }
+
+            #money2 {
+                position: absolute;
+                top: 67%;
+                left: 43%;
+                width: 12%;
+            }
+
+
+            #money4 {
+                position: absolute;
+                top: 40%;
+                right: 0%;
+                width: 12%;
+                z-index: -1;
+            }
+
+            #money5 {
+                position: absolute;
+                top: 0%;
+                right: 0%;
+                width: 12%;
+            }
+
+            #topHero4Left {
+                flex: 4;
+                width: 100%;
+
+                h3 {
+                    width: 70%;
+                    margin-top: 20px;
+
+                    span {
+                        color: #1A73E8;
+                    }
+                }
+
+                button {
+                    background-color: #1A73E8;
+                    color: white;
+                    border-radius: 8px;
+                    padding: 10px;
+                    box-sizing: border-box;
+                    width: 192px;
+                    height: 54px;
+                    margin-top: 10vw;
+                }
+            }
+
+            #topHero4Right {
+                flex: 6;
+            }
+        }
+    }
+
+    #referralForm {
+        width: 40%;
+        border-radius: 29px;
+        background-color: white;
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70%;
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+
+        /* html,
+        body, */
+        #referralForm::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        #closePopup {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        #closePopup:hover {
+            cursor: pointer;
+        }
+    }
+}
